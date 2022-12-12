@@ -71,10 +71,29 @@ body {
     margin: 50px 20px;
     font-size: 2em;
     text-align: center;
+}  
+.cardOne {
+    background-image: url(.../image/boat.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
-    
+.cardTwo{
+    background-image: url(.../image/arena.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.cardThree{
+    background-image: url(.../image/bird.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 @media (max-width:1060px) {
     .cardGroup {
         grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:760px) {
+    .cardGroup {
+        grid-template-columns: repeat(1,1fr);
     }
 }
